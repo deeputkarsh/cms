@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_resume_corporate_exp_details",
+  "info": {
+    "displayName": "CorporateExperienceDetails"
+  },
+  "options": {},
+  "attributes": {
+    "designation": {
+      "type": "string"
+    },
+    "companyName": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "companyOverview": {
+      "type": "string"
+    }
+  }
+}

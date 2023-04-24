@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_common_string_lists",
+  "info": {
+    "displayName": "stringList"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_resume_details_educations",
+  "info": {
+    "displayName": "Education"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume-details.education-item"
+    }
+  }
+}

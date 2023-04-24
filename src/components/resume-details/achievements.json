@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_resume_details_achievements",
+  "info": {
+    "displayName": "achievements",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "list": {
+      "displayName": "AchievementItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "resume-details.achievement-item"
+    }
+  }
+}

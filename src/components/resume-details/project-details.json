@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_resume_details_project_details",
+  "info": {
+    "displayName": "ProjectDetails"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

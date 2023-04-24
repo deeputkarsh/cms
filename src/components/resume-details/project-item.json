@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_resume_details_project_items",
+  "info": {
+    "displayName": "ProjectItem"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "technologies": {
+      "type": "string"
+    },
+    "details": {
+      "type": "component",
+      "repeatable": false,
+      "component": "resume-details.project-details"
+    },
+    "descriptions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.string-list"
+    }
+  }
+}

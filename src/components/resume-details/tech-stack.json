@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_resume_details_tech_stack",
+  "info": {
+    "displayName": "TechStack"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume-details.tech-stack-item"
+    }
+  }
+}

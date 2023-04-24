@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_resume_details_tech_stack_items",
+  "info": {
+    "displayName": "TechStackItem"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.string-list"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_resume_details_education_items",
+  "info": {
+    "displayName": "EducationItem"
+  },
+  "options": {},
+  "attributes": {
+    "courseName": {
+      "type": "string"
+    },
+    "institute": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    }
+  }
+}

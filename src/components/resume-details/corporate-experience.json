@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_resume_corporate_exp",
+  "info": {
+    "displayName": "CorporateExperience"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "list": {
+      "displayName": "CorporateExperienceItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "resume-details.corporate-experience-item"
+    }
+  }
+}

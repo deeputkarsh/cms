@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_common_long_text_lists",
+  "info": {
+    "displayName": "LongTextList"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "text"
+    }
+  }
+}

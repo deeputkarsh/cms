@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "resume_users",
+  "info": {
+    "singularName": "resume-user",
+    "pluralName": "resume-users",
+    "displayName": "Resume-user",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "urlPath": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "personalDetails": {
+      "displayName": "personalDetails",
+      "type": "component",
+      "repeatable": false,
+      "component": "resume-details.personal-details"
+    },
+    "achievementsData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "resume-details.achievements"
+    },
+    "corporateExpData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "resume-details.corporate-experience"
+    },
+    "projectsData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "resume-details.projects"
+    },
+    "educationData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "resume-details.education"
+    },
+    "techStackData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "resume-details.tech-stack"
+    }
+  }
+}
