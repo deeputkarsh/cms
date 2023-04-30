@@ -15,7 +15,7 @@ module.exports = createCoreController('api::resume-user.resume-user', () => ({
     ctx.query = {
       ...ctx.query,
       populate: {
-        personalDetails: populateQuery,
+        personalDetails: { populate: '*' },
         achievementsData: populateQuery,
         corporateExpData: populateQuery,
         projectsData: populateQuery,

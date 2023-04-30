@@ -1,0 +1,44 @@
+version: 0.2
+env:
+  git-credential-helper: yes
+  variables:
+  # this is needed to for these variables to be available in .env file
+    AccountId: ${AccountId}
+    stage: ${stage}
+    DATABASE_CLIENT: mysql2
+    HOST: 0.0.0.0
+    PORT: 1337
+
+  parameter-store:
+    DATABASE_HOST: /MYSQL/HOST
+    DATABASE_USERNAME: /MYSQL/USER
+    DATABASE_PASSWORD: /MYSQL/PASSWORD
+    DATABASE_NAME: /MYSQL/DATABASE
+    APP_KEYS: /CMS/APP_KEYS
+    API_TOKEN_SALT: /CMS/API_TOKEN_SALT
+    ADMIN_JWT_SECRET: /CMS/ADMIN_JWT_SECRET
+    TRANSFER_TOKEN_SALT: /CMS/TRANSFER_TOKEN_SALT
+    JWT_SECRET: /CMS/JWT_SECRET
+    
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14
+    commands:
+      - npm i --no-audit
+  pre_build:
+    commands:
+      - bash ./scripts/createEnv.sh
+  build:
+    commands:
+      - npm run build
+  post_build:
+    commands:
+      - rm -rf node_modules .git
+artifacts:
+  files:
+    - '**/*'
+# cache:
+#   paths:
+#     - "/root/.npm/**/*"
+#     - 'node_modules/**/*'

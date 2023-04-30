@@ -26,6 +26,11 @@
     },
     "summary": {
       "type": "text"
+    },
+    "otherLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.string-list"
     }
   }
 }
