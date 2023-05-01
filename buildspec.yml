@@ -23,9 +23,10 @@ env:
 phases:
   install:
     runtime-versions:
-      nodejs: 14
+      nodejs: 18
     commands:
       - npm i --no-audit
+      # - n 18.16
   pre_build:
     commands:
       - bash ./scripts/createEnv.sh
