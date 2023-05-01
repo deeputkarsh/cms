@@ -2,7 +2,7 @@
 set -e
 sourceDir=/tmp/cms
 serverUser='ec2-user'
-baseDir="/home/${serverUser}/projects"
+baseDir="/home/${serverUser}/apps"
 dirName=cms
 processName='cms'
 
