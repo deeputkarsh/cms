@@ -17,3 +17,5 @@ with open('buildspec.yml', 'r') as stream:
           except:
             print('{0}=\'{1}\''.format(eVars, envValue))
 " > $envFile
+
+echo "NODE_ENV='production'" >> $envFile
