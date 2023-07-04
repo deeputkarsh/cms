@@ -52,6 +52,11 @@
       "type": "component",
       "repeatable": false,
       "component": "resume-details.course"
+    },
+    "languageData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "resume-details.language"
     }
   }
 }

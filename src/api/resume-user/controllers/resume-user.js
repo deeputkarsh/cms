@@ -22,6 +22,7 @@ module.exports = createCoreController('api::resume-user.resume-user', () => ({
         educationData: populateQuery,
         techStackData: populateQuery,
         courseData: populateQuery,
+        languageData: populateQuery,
       },
     };
 
