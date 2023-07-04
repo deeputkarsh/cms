@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_resume_details_course_items",
+  "info": {
+    "displayName": "CourseItem"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "grades": {
+      "displayName": "CourseGrade",
+      "type": "component",
+      "repeatable": true,
+      "component": "resume-details.course-grade"
+    }
+  }
+}

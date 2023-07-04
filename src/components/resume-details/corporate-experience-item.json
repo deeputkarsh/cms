@@ -12,10 +12,10 @@
       "component": "resume-details.corporate-experience-details"
     },
     "responsiblities": {
-      "displayName": "stringList",
+      "displayName": "LongTextList",
       "type": "component",
       "repeatable": true,
-      "component": "common.string-list"
+      "component": "common.long-text-list"
     }
   }
 }

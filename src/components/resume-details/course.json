@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_resume_details_courses",
+  "info": {
+    "displayName": "Course"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "list": {
+      "displayName": "CourseItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "resume-details.course-item"
+    }
+  }
+}

@@ -47,6 +47,11 @@
       "type": "component",
       "repeatable": false,
       "component": "resume-details.tech-stack"
+    },
+    "courseData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "resume-details.course"
     }
   }
 }

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_resume_details_course_grades",
+  "info": {
+    "displayName": "CourseGrade"
+  },
+  "options": {},
+  "attributes": {
+    "subjectName": {
+      "type": "string"
+    },
+    "score": {
+      "type": "string"
+    }
+  }
+}
